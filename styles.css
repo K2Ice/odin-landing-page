@@ -168,7 +168,7 @@ blockquote p::before, blockquote p::after{
     color: #f9faf8;
     border-radius: 5px;
     padding: 30px;
-   
+    justify-content: space-around;
 }
 
 #cta button{
