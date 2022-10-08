@@ -1,0 +1,178 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+
+body{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+p{
+    font-size: 18px;
+}
+
+section > *{
+    width: 60%;
+    margin: 0 auto;
+}
+#header, #footer{
+    background-color: #1F2937;
+}
+
+#header{
+    padding-bottom: 120px;
+    margin-bottom: 70px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+nav > *{
+    flex: 0 auto;
+}
+
+.img-wrapper{
+    flex: 0 0 70px;
+   
+}
+
+.img-wrapper img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color:#e5e7eb;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    display: flex; gap: 10px;
+}
+
+header > * {
+    flex: 1;
+}
+
+header img{
+    width: 50%;
+}
+
+h1{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.welcome-text p{
+    color:#e5e7eb;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+button{
+    font-size: 18px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #f9faf8;
+    font-weight: bold;
+    border:none;
+}
+
+
+#information{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.info-content{
+    display: flex;
+    gap: 10px;
+}
+
+h2{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.info-set{
+    flex: 1;
+    border-radius: 10px;
+}
+
+.info-set img{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 10px;
+    border: 1px solid #1F2937;
+    margin-bottom: 10px;
+}
+
+
+#footer{
+    text-align: center;
+    color: #f9faf8
+}
+
+#footer p{
+    margin: 20px 0;
+}
+
+#quote{
+    background-color: #e5e7eb;
+    padding: 100px 0;
+}
+
+blockquote p {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+blockquote p::before, blockquote p::after{
+    content: '"';
+}
+
+.author{
+    text-align: right;
+    font-weight: 900;
+}
+#cta{
+    padding: 80px 0;;
+}
+
+.cta-wrapper{
+    display: flex;
+    background-color: #3882f6;
+    align-items: center;
+    gap: 20px;
+    color: #f9faf8;
+    border-radius: 5px;
+    padding: 30px;
+   
+}
+
+#cta button{
+    flex:none;
+    border: 1px solid #f9faf8;
+    border-radius: 10px;
+}
